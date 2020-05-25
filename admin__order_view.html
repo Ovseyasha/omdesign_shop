@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Магазин авторских принтов">
+    <meta name="author" content="Ovhcinnikov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="">
+    <script src="https://kit.fontawesome.com/22d4ab7a71.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <title>Админпанель</title>
+</head>
+
+<body class="page">
+
+    <div class="page__panel">
+        <a href="" class="page__panel-item">
+            <i class="fas fa-external-link-alt"></i>
+            <p>На сайт</p>
+        </a>
+        <a href="" class="page__panel-item">
+            <i class="fas fa-home"></i>
+            <p>Админпанель</p>
+        </a>
+        <a href="" class="page__panel-item">
+            <i class="fas fa-cart-plus"></i>
+            Управление товарами
+        </a>
+        <a href="" class="page__panel-item  ">
+            <i class="fas fa-tags"></i>
+            Управление категориями
+        </a>
+        <a href="" class="page__panel-item">
+            <i class="fas fa-truck-loading page__panel-item_active"></i>
+            Управление заказами
+        </a>
+        <a href="" class="page__panel-item">
+            <i class="fab fa-microblog"></i>
+            Управление блогом
+        </a>
+        <a href="" class="page__panel-item">
+            <i class="fas fa-percent"></i>
+            Управление акциями
+        </a>
+    </div>
+    <div class="page__content">
+        <div class="page__user">
+            <div class="page__hello">
+                Здравствуйте, администратор
+            </div>
+        </div>
+        <div class="page__main">
+            <div class="product-edit">
+
+                <h2 class="product-edit__header">
+                    <a href=""><i class="fas fa-arrow-circle-left"></i></a>Просомотр заказа #1
+                </h2>
+
+                <div class="order-info">
+                    <h2 class="order-info__header">Информация о заказе</h2>
+
+                    <div class="order-info__items">
+                        <div class="order-info__item">
+                            <div class="order-info__text">
+                                Имя:
+                                <span class="order-info__label">
+                                    Sasha
+                                </span>
+                            </div>
+                            <div class="order-info__text">
+                                Фамилия:
+                                <span class="order-info__label">
+                                    Ovchinnikov
+                                </span>
+                            </div>
+                            <div class="order-info__text">
+                                Email:
+                                <a class="order-info__email" href="mailto:ovseyasha@mail.ru">
+                                    ovseyasha@mail.ru
+                                </a>
+
+                            </div>
+                            <div class="order-info__text">
+                                Номер телефона:
+                                <a class="order-info__phone" href="tel:89153908342">
+                                    89153908342
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="order-info__item">
+                            <div class="order-info__text">
+                                Город:
+                                <span class="order-info__label">
+                                    Пушкино
+                                </span>
+                            </div>
+                            <div class="order-info__text">
+                                Улица:
+                                <span class="order-info__label">
+                                    Некрасова
+                                </span>
+                            </div>
+                            <div class="order-info__text">
+                                Дом:
+                                <span class="order-info__label">
+                                    23
+                                </span>
+                            </div>
+                            <div class="order-info__text">
+                                Квартира:
+                                <span class="order-info__label">
+                                    110
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="order-info__item">
+                            <div class="order-info__text">
+                                Комментарий к заказу:
+                                <span class="order-info__label">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, ratione.
+                                    Aliquid, ex impedit fugit, consequuntur unde repellendus cum repudiandae, nulla
+                                    libero iure rerum magni quidem reiciendis at culpa! Recusandae, porro!
+                                </span>
+                            </div>
+                            <div class="order-info__text">
+                                Дата заказа:
+                                <span class="order-info__label">
+                                    2020-05-02
+                                </span>
+                            </div>
+                            <div class="order-info__text">
+                                Статус заказа:
+                                <span class="order-info__label">
+                                    Новый заказ
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-info__product-list">
+                        <div class="order-info__product-table  table-order">
+                            <div class="table-order__header">
+                                <div class="table-order__header-item">ID Товара</div>
+                                <div class="table-order__header-item">Категория</div>
+                                <div class="table-order__header-item">Название</div>
+                                <div class="table-order__header-item">Цена</div>
+                                <div class="table-order__header-item">Количество</div>
+                            </div>
+                            <div class="table-order__items">
+                                <div class="table-order__item">
+                                    <div class="table-order__product-value">1</div>
+                                    <div class="table-order__product-value">Сумка</div>
+                                    <div class="table-order__product-value">Весна</div>
+                                    <div class="table-order__product-value">14 000 ₽</div>
+                                    <div class="table-order__product-value">1</div>
+                                </div>
+                                <div class="table-order__item">
+                                    <div class="table-order__product-value">1</div>
+                                    <div class="table-order__product-value">Сумка</div>
+                                    <div class="table-order__product-value">Весна</div>
+                                    <div class="table-order__product-value">14 000 ₽</div>
+                                    <div class="table-order__product-value">1</div>
+                                </div>
+                                <div class="table-order__item">
+                                    <div class="table-order__product-value">1</div>
+                                    <div class="table-order__product-value">Сумка</div>
+                                    <div class="table-order__product-value">Весна</div>
+                                    <div class="table-order__product-value">14 000 ₽</div>
+                                    <div class="table-order__product-value">1</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-info__product-total">
+                            Итог: <span class="total-info">14 000 ₽</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Магазин авторских принтов">
+    <meta name="author" content="Ovhcinnikov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="">
+    <script src="https://kit.fontawesome.com/22d4ab7a71.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <title>Админпанель</title>
+</head>
+
+<body class="page">
+
+    <div class="page__panel">
+        <a href="" class="page__panel-item">
+            <i class="fas fa-external-link-alt"></i>
+            <p>На сайт</p>
+        </a>
+        <a href="" class="page__panel-item">
+            <i class="fas fa-home"></i>
+            <p>Админпанель</p>
+        </a>
+        <a href="" class="page__panel-item">
+            <i class="fas fa-cart-plus"></i>
+            Управление товарами
+        </a>
+        <a href="" class="page__panel-item  ">
+            <i class="fas fa-tags"></i>
+            Управление категориями
+        </a>
+        <a href="" class="page__panel-item">
+            <i class="fas fa-truck-loading"></i>
+            Управление заказами
+        </a>
+        <a href="" class="page__panel-item page__panel-item_active">
+            <i class="fab fa-microblog"></i>
+            Управление блогом
+        </a>
+        <a href="" class="page__panel-item">
+            <i class="fas fa-percent"></i>
+            Управление акциями
+        </a>
+    </div>
+    <div class="page__content">
+        <div class="page__user">
+            <div class="page__hello">
+                Здравствуйте, администратор
+            </div>
+        </div>
+        <div class="page__main">
+            <div class="product-edit">
+
+                <h2 class="product-edit__header">
+                    <a href=""><i class="fas fa-arrow-circle-left"></i></a>Редактирование блога
+                </h2>
+                <form class="product-edit__form" method="post" enctype="multipart/form-data">
+
+                    <input type="text" name="name" id="name" placeholder="Название" class="product-edit__input">
+
+                    <textarea class="product-edit__input product-edit__input_textarea" name="content" id="content"
+                        placeholder="Описание"></textarea>
+
+
+                    <label class="product-edit__label" for="video">Вставьте ссылку на видео(Не обязательно):</label>
+                    <input type="text" name="video" id="video" placeholder="Ссылка" class="product-edit__input">
+
+                    <label class="product-edit__label" for="img-1">Выберите 1-ю фотографию :</label>
+                    <img src="img/publication/product.jpg" alt="" class="product-edit__img">
+                    <input type="file" name="img-1" accept="image/*image/jpeg" id="img-1">
+
+                    <label class="product-edit__label" for="img-2">Выберите 2-ю фотографию (обязательно):</label>
+                    <img src="img/publication/product.jpg" alt="" class="product-edit__img">
+                    <input type="file" name="img-2" accept="image/*image/jpeg" id="img-2">
+
+                    <input type="submit" value="Сохранить" class="product-edit__submit">
+
+                </form>
+
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

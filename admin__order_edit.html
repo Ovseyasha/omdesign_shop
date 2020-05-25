@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Магазин авторских принтов">
+    <meta name="author" content="Ovhcinnikov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="">
+    <script src="https://kit.fontawesome.com/22d4ab7a71.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <title>Админпанель</title>
+</head>
+
+<body class="page">
+
+    <div class="page__panel">
+        <a href="" class="page__panel-item">
+            <i class="fas fa-external-link-alt"></i>
+            <p>На сайт</p>
+        </a>
+        <a href="" class="page__panel-item">
+            <i class="fas fa-home"></i>
+            <p>Админпанель</p>
+        </a>
+        <a href="" class="page__panel-item">
+            <i class="fas fa-cart-plus"></i>
+            Управление товарами
+        </a>
+        <a href="" class="page__panel-item  ">
+            <i class="fas fa-tags"></i>
+            Управление категориями
+        </a>
+        <a href="" class="page__panel-item">
+            <i class="fas fa-truck-loading page__panel-item_active"></i>
+            Управление заказами
+        </a>
+        <a href="" class="page__panel-item">
+            <i class="fab fa-microblog"></i>
+            Управление блогом
+        </a>
+        <a href="" class="page__panel-item">
+            <i class="fas fa-percent"></i>
+            Управление акциями
+        </a>
+    </div>
+    <div class="page__content">
+        <div class="page__user">
+            <div class="page__hello">
+                Здравствуйте, администратор
+            </div>
+        </div>
+        <div class="page__main">
+            <div class="product-edit">
+
+                <h2 class="product-edit__header">
+                    <a href=""><i class="fas fa-arrow-circle-left"></i></a>Изменить статус заказа
+                </h2>
+
+                <form action="" method="post" class="product-edit__form">
+                    <label class="product-edit__label" for="status">Статус заказа:</label>
+                    <select name="status" id="status" class="product-edit__input product-edit__input_select">
+                        <option value="" selected disabled class="product-edit__input product-edit__input_option">
+                            Пожалуйста, выберите
+                        </option>
+                        <option value="1" class="product-edit__input product-edit__input_option">Новый заказ</option>
+                        <option value="2" class="product-edit__input product-edit__input_option">Заказ в пути</option>
+                        <option value="0" class="product-edit__input product-edit__input_option">Заказ выполнен</option>
+                    </select>
+
+
+
+                    <input type="submit" value="Сохранить" class="product-edit__submit">
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
